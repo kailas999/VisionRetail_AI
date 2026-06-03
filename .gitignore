@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env.local
+
+# Environment (keep .env.example, not .env)
+.env
+
+# Models (large binary files)
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.coveragerc
+
+# Docker
+.dockerignore
+
+# Database
+*.sqlite
+*.db
+db_data/
+
+# Logs
+*.log
+logs/
+
+# Data (large files)
+datasets/raw/CCTV Footage/*.mp4
+datasets/raw/CCTV Footage/*.avi
+datasets/processed/*
+datasets/events/*.jsonl
+!datasets/raw/sample_events.jsonl
+
+# Alembic
+alembic/versions/__pycache__/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+.DS_Store
+yolov8m.pt
+*.mp4
